@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+form input {
+    width: 290px;
+    padding: 7px 10px;
+    height: 35px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+form #search-btn {
+    height: 35px;
+    padding: 5px 7px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 40px auto;
+    flex-wrap: wrap;
+}
+
+.container .container-item {
+    width: 32%;
+    border-radius: 10px;
+    
+}
+
+
+.container .container-item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.showmore {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.showmore .showmore-btn {
+    padding: 5px 7px;
+    background-color: rgb(132, 16, 159);
+    color: white;
+    font-size: 1.1em;
+     border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+}
